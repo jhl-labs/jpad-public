@@ -37,21 +37,21 @@ AI 기능은 사용자가 설정한 엔드포인트로만 요청합니다. API �
 
 | | Windows x64 | Linux x64 | macOS | 모바일 |
 |---|---|---|---|---|
-| 배포 바이너리 | 제공 예정 | 제공 예정 | 없음 | 없음 |
+| 배포 바이너리 | 준비 중 | 0.1.3 | 없음 | 없음 |
 | 한글 IME (편집기·터미널) | 통과 | **미검증** | **미검증** | **미검증** |
 | 편집·대용량 파일 | 통과 | **미검증** | **미검증** | **미검증** |
 
-Windows 11 + WebView2 환경에서 검증했습니다. Linux 바이너리는 빌드만 확인했으며,
-특히 WebKitGTK + ibus/fcitx5 조합의 한글 입력은 확인하지 못했습니다. Linux에서 써 보신
+Windows 11 + WebView2 환경에서 검증했습니다. Linux 바이너리는 빌드와 프로세스 실행만 확인했고,
+창 표시와 한글 입력은 확인하지 못했습니다. 특히 WebKitGTK + ibus/fcitx5 조합이 가장 위험합니다. Linux에서 써 보신
 결과를 [이슈](https://github.com/jhl-labs/jpad-public/issues/new?template=bug_report.yml)로
 알려 주시면 큰 도움이 됩니다.
 
 ## 설치
 
-공개 릴리스는 [Releases](https://github.com/jhl-labs/jpad-public/releases)에 올립니다.
-첫 공개 릴리스는 준비 중입니다.
+공개 릴리스는 [Releases](https://github.com/jhl-labs/jpad-public/releases)에 있습니다.
+첫 공개 릴리스는 0.1.3입니다. Windows 실행 파일은 준비 중입니다.
 
-- **Windows**: `jpad-<버전>-windows-x64.exe` 하나를 받아 실행합니다. 설치 과정이 없고,
+- **Windows**: `jpad-<버전>-x64.exe` 하나를 받아 실행합니다. 설치 과정이 없고,
   필요한 런타임은 WebView2뿐입니다(Windows 11 기본 탑재).
 - **Linux**: `jpad_<버전>_linux_amd64`를 받아 실행 권한을 주고 실행합니다.
   WebKitGTK 4.1 런타임이 필요합니다.
@@ -61,7 +61,7 @@ Windows 11 + WebView2 환경에서 검증했습니다. Linux 바이너리는 빌
 
 ```powershell
 # Windows
-(Get-FileHash .\jpad-<버전>-windows-x64.exe -Algorithm SHA256).Hash.ToLower()
+(Get-FileHash .\jpad-<버전>-x64.exe -Algorithm SHA256).Hash.ToLower()
 ```
 
 ```bash
@@ -102,7 +102,8 @@ viewers, line-anchored review notes stored in `.jpad` sidecar files, an optional
 any OpenAI-compatible endpoint, a PTY terminal tab, encoding-preserving saves, and windowed
 editing for files larger than 64MB.
 
-Verified on Windows 11 + WebView2. Linux builds are provided but not yet verified, especially
-for Korean input with WebKitGTK + ibus/fcitx5. Binaries are unsigned; verify them with the
+Verified on Windows 11 + WebView2. The Linux build (0.1.3) has only been checked to build and
+start; window rendering and Korean input with WebKitGTK + ibus/fcitx5 are not yet verified. A
+Windows build of 0.1.3 is in preparation. Binaries are unsigned; verify them with the
 attached `SHA256SUMS`. The source code is private; this repository hosts releases, docs, and
 issues. See [`LICENSE`](LICENSE) for binary usage terms.
