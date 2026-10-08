@@ -1,0 +1,159 @@
+jpad Software License
+=====================
+
+Copyright (c) 2026 JHL Labs. All rights reserved.
+
+This software and its compiled binary distributions ("jpad") are made
+available under the following terms. By installing, executing, or
+redistributing jpad, you agree to be bound by this License.
+
+1. License to Use the Binary
+----------------------------
+
+Subject to Section 4 and your continued compliance with this License, JHL
+Labs grants you a worldwide, royalty-free, non-exclusive, non-transferable
+license to install, execute, and redistribute the unmodified, officially
+published compiled binary distributions of jpad (the "Binaries") for any
+lawful purpose, including commercial use.
+
+You may:
+
+  (a) install and run the Binaries on any number of devices, individually
+      or on behalf of your organization;
+
+  (b) integrate jpad into your own workflows, products, and services,
+      including those you charge for;
+
+  (c) redistribute the Binaries in their original, unmodified form,
+      provided that this License file and any accompanying NOTICE file
+      are included with every copy.
+
+You may not charge a license fee specifically and solely for access to
+unmodified Binaries (bundling jpad as part of a larger product, service,
+or offering is permitted).
+
+2. Source Code Restrictions
+---------------------------
+
+The source code of jpad is proprietary and is NOT distributed under this
+License. Nothing in this License grants you any right, title, or interest
+in the jpad source code, including but not limited to the right to view,
+use, copy, modify, distribute, sublicense, or create derivative works of
+the source code.
+
+You may not:
+
+  (a) reverse-engineer, decompile, disassemble, de-obfuscate, extract,
+      or otherwise attempt to derive or reconstruct the source code,
+      algorithms, data structures, internal design, or trade secrets of
+      the Binaries, except and only to the extent that such activity is
+      expressly required to be permitted by applicable law notwithstanding
+      this limitation;
+
+  (b) use, copy, distribute, publish, sublicense, or create derivative
+      works of any jpad source code, build artifact (other than the
+      Binaries), or internal documentation that you obtain by ANY means,
+      including without limitation: accidental access, misconfiguration,
+      a leaked or stolen copy, third-party disclosure, a private
+      repository exposure, security research output, a compelled
+      disclosure, or discovery during an audit, merger, acquisition, or
+      legal proceeding — without the prior, express, written permission
+      of JHL Labs;
+
+  (c) train, fine-tune, evaluate, or otherwise use jpad source code,
+      Binaries, or any derivative thereof as input to, or training data
+      for, any machine-learning model, embedding, or dataset, whether
+      public or private;
+
+  (d) remove, alter, or obscure any copyright, trademark, license, or
+      other proprietary notice in the Binaries or accompanying files.
+
+If you come into possession of jpad source code, build artifacts, or
+internal documentation through any means not expressly authorized by
+JHL Labs, you must:
+
+  (i)   not use, copy, study, or distribute the material;
+
+  (ii)  promptly notify JHL Labs at bkperio@gmail.com, describing the
+        circumstances of the disclosure; and
+
+  (iii) destroy or return all copies in your possession (including
+        copies held by your agents and subcontractors) upon written
+        request from JHL Labs.
+
+The obligations in this Section 2 apply regardless of whether the
+material is marked as confidential, and regardless of how it was
+obtained. Unauthorized use is expressly forbidden in every case.
+
+3. Trademarks
+-------------
+
+"jpad" and "JHL Labs" are trademarks of JHL Labs. This License does not
+grant you any rights to use these trademarks other than as reasonably
+necessary to describe the origin of the Binaries (e.g., "built with
+jpad", "runs on jpad"). You may not use the trademarks in a manner that
+suggests endorsement, sponsorship, or affiliation without written
+permission.
+
+4. No Warranty
+--------------
+
+THE BINARIES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
+NONINFRINGEMENT. IN NO EVENT SHALL JHL LABS OR ITS CONTRIBUTORS BE
+LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE BINARIES OR THE USE OR OTHER DEALINGS
+WITH THE BINARIES.
+
+To the maximum extent permitted by applicable law, JHL Labs' aggregate
+liability arising out of or relating to this License or the Binaries
+shall not exceed the greater of (a) the amount you paid JHL Labs for the
+Binaries in the twelve (12) months preceding the claim, or (b) USD 100.
+
+5. Termination
+--------------
+
+This License terminates automatically and without notice upon your
+breach of any of its terms. Upon termination you must:
+
+  (a) immediately cease all use of the Binaries;
+
+  (b) destroy all copies of the Binaries in your possession or control;
+      and
+
+  (c) comply with any further written instructions from JHL Labs
+      regarding material obtained in violation of Section 2.
+
+Sections 2 (Source Code Restrictions), 4 (No Warranty), 5 (Termination),
+and 6 (General) survive termination of this License.
+
+6. General
+----------
+
+This License constitutes the entire agreement between you and JHL Labs
+concerning the Binaries and supersedes all prior or contemporaneous
+understandings. This License may not be modified except by a writing
+signed by an authorized representative of JHL Labs.
+
+This License is governed by the laws of the Republic of Korea, without
+regard to its conflict-of-laws rules. Any dispute arising out of or
+relating to this License or the Binaries shall be brought exclusively
+in the courts of Seoul, Republic of Korea, and you consent to the
+personal jurisdiction of such courts. Notwithstanding the foregoing, JHL
+Labs may seek injunctive or equitable relief in any jurisdiction to
+protect its intellectual property rights.
+
+If any provision of this License is held to be unenforceable, that
+provision shall be modified to the minimum extent necessary to make it
+enforceable, and the remaining provisions shall continue in full force
+and effect.
+
+7. Contact
+----------
+
+Requests for source-code licensing, extended commercial arrangements,
+vulnerability reports, or any clarification:
+
+    bkperio@gmail.com

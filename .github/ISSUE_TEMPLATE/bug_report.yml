@@ -1,0 +1,99 @@
+name: 버그 신고 / Bug report
+description: jpad가 고장 났거나 예상과 다르게 동작합니다.
+title: "[bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        신고 전에 확인해 주세요.
+        - [최신 릴리스](https://github.com/jhl-labs/jpad-public/releases)에서도 재현되는지
+        - [기존 이슈](https://github.com/jhl-labs/jpad-public/issues?q=is%3Aissue)에 같은 내용이 없는지
+        - **보안 문제**라면 여기서 멈추고 [`SECURITY.md`](https://github.com/jhl-labs/jpad-public/blob/main/SECURITY.md)를 따라 주세요
+
+        실제 문서 내용, API 키, 개인 경로는 넣지 마세요.
+
+  - type: input
+    id: version
+    attributes:
+      label: jpad 버전 / version
+      description: 받은 파일 이름이나 설정 화면의 버전
+      placeholder: "0.1.2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options:
+        - Windows 11
+        - Windows 10
+        - Linux (x64)
+        - 기타 / Other
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: 환경 상세 / Environment details
+      description: 배포판·데스크톱 환경, 입력기(Microsoft IME, ibus, fcitx5 등), WebView 버전
+      placeholder: "Ubuntu 24.04 · GNOME · ibus-hangul"
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: 문제가 생긴 영역 / Area
+      options:
+        - 편집기 / Editor
+        - 한글 입력 / Korean IME
+        - 대용량 파일 / Large files
+        - 마크다운 미리보기 / Markdown preview
+        - 데이터 뷰어 (CSV·Excel·SQLite)
+        - 검토 메모 (.jpad)
+        - AI 기능 / AI
+        - 터미널 / Terminal
+        - 인코딩 / Encoding
+        - 기타 / Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 순서 / Steps to reproduce
+      description: 가장 작은 예시 파일과 정확한 조작 순서
+      placeholder: |
+        1. 빈 .md 파일을 연다
+        2. 한글 "가나다"를 입력한다
+        3. Ctrl+S로 저장한다
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대한 동작 / Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 실제 동작 / Actual behavior
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: 확인 / Confirmations
+      options:
+        - label: 최신 릴리스에서 확인했습니다.
+          required: true
+        - label: 기존 이슈를 검색했고 중복이 아닙니다.
+          required: true
+        - label: 보안 취약점이 아닙니다(보안 문제는 SECURITY.md 절차를 따릅니다).
+          required: true

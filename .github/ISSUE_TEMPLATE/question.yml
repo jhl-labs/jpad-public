@@ -1,0 +1,30 @@
+name: 질문 / Question
+description: jpad 사용법을 묻습니다.
+title: "[question]: "
+labels: ["question", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        먼저 [`README.md`](https://github.com/jhl-labs/jpad-public#readme)의 사용법을 확인해 주세요.
+
+  - type: input
+    id: version
+    attributes:
+      label: jpad 버전 / version
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: 질문 / Question
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 하려는 작업 / Context
+    validations:
+      required: true

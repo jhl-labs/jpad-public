@@ -1,0 +1,51 @@
+name: 기능 제안 / Feature request
+description: 새 기능이나 기존 기능의 개선을 제안합니다.
+title: "[feat]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        정해 둔 해결책보다 **해결하려는 문제**를 알려 주세요. 다른 방식으로 구현될 수 있습니다.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 어떤 문제를 해결하고 싶나요? / Problem
+      description: 지금의 jpad로 부족한 상황을, 작업 흐름을 모르는 사람도 그릴 수 있게 설명해 주세요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: 지금은 어떻게 우회하나요? / Current workaround
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 사용자 입장에서 어떤 모습이면 좋을까요? / Proposal
+      description: 단축키, 메뉴, 설정 항목처럼 보이고 누르는 것을 기준으로 적어 주세요.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: 얼마나 중요한가요? / Importance
+      options:
+        - 있으면 좋음 / Nice to have
+        - 작업 흐름이 크게 나아짐 / Meaningful improvement
+        - 없으면 다른 도구로 바꿈 / Blocking
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: 확인 / Confirmations
+      options:
+        - label: 기존 이슈를 검색했고 중복이 아닙니다.
+          required: true

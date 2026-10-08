@@ -1,0 +1,20 @@
+jpad
+Copyright (c) 2026 JHL Labs. All rights reserved.
+
+The jpad Binaries are distributed under the jpad Software License.
+See the accompanying LICENSE file for the full terms. In summary:
+
+  - Use and redistribution of the compiled Binaries is free for any
+    lawful purpose, including commercial use.
+  - The jpad source code is proprietary and NOT licensed under this
+    distribution. Reverse-engineering and use of any source code or
+    internal build artifact obtained by any means (including
+    accidentally) require prior written permission from JHL Labs.
+    Unauthorized use is strictly prohibited.
+
+This product includes software developed by third parties bundled into
+the Binaries. Each public release attaches `third-party-notices.txt`
+listing bundled dependencies and their respective upstream licenses,
+which govern those portions independently of the jpad Software License.
+
+Contact: bkperio@gmail.com
